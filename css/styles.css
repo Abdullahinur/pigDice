@@ -1,0 +1,63 @@
+body {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 1080px:
+}
+
+.header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  background-color: magenta;
+  height: 500px;
+  margin-bottom: -100px;
+}
+
+.header h1 {
+  color: #fff;
+  font-family: bombingregular, monospace;
+  font-size: 300px;
+  text-align: center;
+  line-height: 400px;
+
+}
+
+.rules {
+  background-color: orange;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.dice {
+  background-color: green;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.player {
+  background-color: purple;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.player1 {}
+
+.player2 {}
+
+.result {
+  background-color: black;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  height: 300px;
+}
